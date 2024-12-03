@@ -1,112 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Alban</title>
 </head>
-<body>
 
+<body>
+    <div id="MENU">
     <header>
-        <div id="presentation">
-            <h1>Alban Bergeon</h1>
-            <img aria-label="Photo de Alban Bergeon" src="Alban BERGEON 3.JPG" width=10% height=10% />
-            <p>Etudiant à la Normandie Web School</p>
-        </div>
-    <div id="encres">
-    <nav class="menu">
-        <h2 id="menu">MENU</h2> 
-        <ul>    
-          <li><a href="#donnée_perso" aria-label="Lien pour aller à la section: Informations personelles">Informations personelles</a></li>
-          <li><a href="#a_propos_de_moi" aria-label="Lien pour aller à la section: À propos de moi">À propos de moi</a></li>
-          <li><a href="#mes_formations" aria-label="Lien pour aller à la section: Mon parcours scolaire">Mon parcours scolaire</a></li>
-          <li><a href="#expérience_pro" aria-label="Lien pour aller à la section: Mes expériences professionnelles">Mes expériences professionnelles</a></li>
-          <li><a href="#Langages" aria-label="Lien pour aller à la section: Mes capacités linguistiques">Mes capacités linguistiques</a></li>   
-        </ul>
-      </nav>
+        <div id="titrehead">
+        <h1>Alban Bergeon</h1>
     </div>
+        <section class="boutons">
+            <button href="#donnée_perso" class="btn">Informations personelles</button>
+            <button href="#a_propos_de_moi" class="btn">À propos de moi</button>
+            <button href="#mes_formations" class="btn">Mon parcours scolaire</button>
+            <button href="#expérience_pro" class="btn">Mes expériences professionnelles</button>
+            <button href="#Langages" class="btn">Mes capacités linguistiques</button>
+        </section>
+    </div>
+        <div id="presentation">
+            
+            <div id="imagehead">
+                <img aria-label="Photo de Alban Bergeon" src="Alban BERGEON 3.JPG"/>
+            </div>
+            <div id="textehead">
+                <p>Bonjour ! Je suis Alban Bergeon et bienvenue sur mon CV !</p>
+            </div>
+        </div>
+        <h2 id="menu">MENU</h2>
+
+
     </header>
 
     <main>
         <div id="info_perso">
-        <h2 id="donnée_perso">Informations personelles <a href="#menu" aria-label="Retour au menu">⬆️</a></h2>
-        <ul>
-            <li>Email : alban.bergeon@gmail.com</li>
-            <li>Téléphone : 06 02 29 82 67</li>
-            <li>Lieu de résidence: La Rivière-  Saint-Sauveur</li>
-            <li>Permis: En cours d'obtention</li>
-        </ul>
-    </div>
+            <h2 id="donnée_perso">Informations personelles <a href="#menu" aria-label="Retour au menu">⬆️</a></h2>
+            <ul>
+                <li>Email : alban.bergeon@gmail.com</li>
+                <li>Téléphone : 06 02 29 82 67</li>
+                <li>Lieu de résidence: La Rivière- Saint-Sauveur</li>
+                <li>Permis: En cours d'obtention</li>
+            </ul>
+        </div>
 
-    <div id="apropos">
-        <h2 id="a_propos_de_moi">à propos de moi <a href="#menu" aria-label="Retour au menu">⬆️</a></h2>
-        <p>Jeune étudiant à la
-            Normandie Web School,
-            j’apprécie apprendre, je
-            suis toujours à l’écoute
-            et prêt à
-            <br> résoudre
-            les problèmes qui me
-            sont posés. Cherche à
-            mettre mon énergie au
-            service d’une
-            entreprise.</p>
-    </div>
+        <div id="apropos">
+            <h2 id="a_propos_de_moi">à propos de moi <a href="#menu" aria-label="Retour au menu">⬆️</a></h2>
+            <p>Jeune étudiant à la
+                Normandie Web School,
+                j’apprécie apprendre, je
+                suis toujours à l’écoute
+                et prêt à
+                <br> résoudre
+                les problèmes qui me
+                sont posés. Cherche à
+                mettre mon énergie au
+                service d’une
+                entreprise.
+            </p>
+        </div>
 
 
-    <div id="formations">
-        <h2 id="mes_formations">Formations <a href="#menu" aria-label="Retour au menu">⬆️</a></h2>
-        
-        <article>
-        <h3>Bachelor chef de projet digitaux</h3>
-        <p>Normandie Web School - Le havre</p>
-        <p>2024 - 2027</p>
-    </article>
-    <article>
-        <h3>Baccalauréat générale</h3>
-        <p>lycée albert sorel - Honfleur</p>
-        <p>2021-2023</p>
-    </article>
-</div>
+        <div id="formations">
+            <h2 id="mes_formations">Formations <a href="#menu" aria-label="Retour au menu">⬆️</a></h2>
 
-<div id="exp_pro">
-        <h2 id="expérience_pro">Expériences professionnelles <a href="#menu" aria-label="Retour au menu">⬆️</a></h2>
-        <article>
-        <h3>Recotle de fruits</h3>
-        <p>Fruits alleaume - La Rivière-Saint-Sauveur</p>
-        <p>2018</p>
-        <ul>
-            <li>Patience, écoute, observationtravaille à plusieur</li>
-        </ul>
-    </article>
-        
-    <article>
-        <h3>Stage de troisième</h3>
-        <p>Sarl Bergeon et Fils - La Rivière-Saint-Sauveur</p>
-        <p>2020</p>
-        <ul>
-            <li>Réalisation de taches manuelle simple et observation</li>
-            <li>Attention, adaptabilité</li>
-        </ul>
-    </article>
-    </div>
+            <article>
+                <h3>Bachelor chef de projet digitaux</h3>
+                <p class="lieu">Normandie Web School - Le havre</p>
+                <p class="date">2024 - 2027</p>
+            </article>
+            <article>
+                <h3>Baccalauréat générale</h3>
+                <p class="lieu">lycée albert sorel - Honfleur</p>
+                <p class="date">2021-2023</p>
+            </article>
+        </div>
 
-    <div id="Langues">
-        <h2 id="Langages">Langues <a href="#menu" aria-label="Retour au menu">⬆️</a></h2>
-        <ul>
-            <li>Français : Langue maternelle</li>
-            <li>Anglais : Niveau B2</li>
-            <li>Espagnol : Notions</li>
-        </ul>
-    </div>
+        <div id="exp_pro">
+            <h2 id="expérience_pro">Expériences professionnelles <a href="#menu" aria-label="Retour au menu">⬆️</a></h2>
+            <article>
+                <h3>Recotle de fruits</h3>
+                <p class="lieu">Fruits alleaume - La Rivière-Saint-Sauveur</p>
+                <p class="date">2018</p>
+                <ul>
+                    <li>Patience, écoute, observationtravaille à plusieur</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Stage de troisième</h3>
+                <p class="lieu">Sarl Bergeon et Fils - La Rivière-Saint-Sauveur</p>
+                <p class="date">2020</p>
+                <ul>
+                    <li>Réalisation de taches manuelle simple et observation</li>
+                    <li>Attention, adaptabilité</li>
+                </ul>
+            </article>
+        </div>
+
+        <div id="Langues">
+            <h2 id="Langages">Langues <a href="#menu" aria-label="Retour au menu">⬆️</a></h2>
+            <ul>
+                <li>Français : Langue maternelle</li>
+                <li>Anglais : Niveau B2</li>
+                <li>Espagnol : Notions</li>
+            </ul>
+        </div>
     </main>
 
     <footer>
         <div id="Lien">
-            
-            <h2 id="Contacte">Me contacter <a href="#menu" aria-label="Retour au menu">⬆️</a></h2> 
-            <a href="https://www.linkedin.com/in/alban-bergeon-4986b4338/" aria-label="Lien pour se rendre sur le Linkedin d'Alban Begeon">Mon Linkedin</a>
-    </div>
-</footer>
+
+            <h2 id="Contacte">Me contacter <a href="#menu" aria-label="Retour au menu">⬆️</a></h2>
+            <a href="https://www.linkedin.com/in/alban-bergeon-4986b4338/"
+                aria-label="Lien pour se rendre sur le Linkedin d'Alban Begeon">Mon Linkedin</a>
+        </div>
+    </footer>
 </body>
+
 </html>

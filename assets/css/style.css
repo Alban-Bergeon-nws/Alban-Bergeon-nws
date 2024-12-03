@@ -1,30 +1,37 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Montserrat, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: h#11192d;
+  color: #ffffff;
+  text-align: center;
+}
+
+main {
+  background-color: #11192dff;
+  margin: 0;
+
 }
 
 header,
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #11192dff;
+  color: #ffffff;
   padding: 1em 0;
   text-align: center;
 }
 
 h1 {
-  color: #fff;
+  color: #ffffff;
 }
 
-header li {
+header li { 
   display: inline;
   padding: 0 1em;
 }
 
 footer {
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -34,6 +41,74 @@ footer p {
 }
 
 img {
-  width: 10%;
+  width: 20%;
   margin: 0;
 }
+
+
+
+
+
+
+
+#imagehead img{
+  width: 400px;
+}
+
+#presentation div {
+  border:0px solid #ffffff;
+}
+
+#imagehead, #textehead {
+  width:40%
+}
+
+#textehead{
+  font-size: 64px;
+  color: #67f5e5;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 1em;
+  letter-spacing: .02em;
+}
+
+#presentation {
+  display: flex;
+  align-items: center;
+}
+
+
+.boutons {
+  text-align: center;
+}
+
+.btn {
+  background-color: #11192d; 
+  color: white; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+.btn:hover {
+  background-color: white; 
+  color: #007BFF;
+  border: 2px solid #007BFF; 
+}
+
+
+
+
+
+ul {
+   list-style-type:none;
+  }
+
+.date {font-style: italic; }
+
+.lieu {font-weight: bold; }
+
