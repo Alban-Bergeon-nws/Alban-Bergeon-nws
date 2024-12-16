@@ -5,56 +5,47 @@
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <script src="assets/js/script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Alban</title>
 </head>
 
-<body>
-    <header>
-        <nav>
-        <div id="MENU">
-            <div id="titrehead">
-                <h1>Alban Bergeon</h1>
-            </div>
-            <div id="boutons">
-                <button href="#donnée_perso" class="btn">Informations personelles</button>
-                <button href="#a_propos_de_moi" class="btn">À propos de moi</button>
-                <button href="#mes_formations" class="btn">Mon parcours scolaire</button>
-                <button href="#expérience_pro" class="btn">Mes expériences professionnelles</button>
-                <button href="#Langages" class="btn">Mes capacités linguistiques</button>
-            </div>
+<header>
+    <nav>
+    <div id="MENU">
+        <div id="logohead">
+            <img aria-label="Photo de Alban Bergeon" src="logo alban clair @4x.png" />
         </div>
-    </nav>
-        <div id="presentation">
-
-            <div id="imagehead">
-                <img aria-label="Photo de Alban Bergeon" src="Alban BERGEON 3.JPG" />
-            </div>
-            <div id="textehead">
-                <p>Bonjour !  Je suis Alban Bergeon et bienvenue sur mon CV !</p>
-            </div>
+        <div id="boutons">
+            <a href="#a_propos_de_moi" class="btn"varia-label="dirige à la section à propos de moi">À propos de moi</a>
+            <a href="#mes_formations" class="btn" aria-label="dirige à la section de mon parcours scolaire">Mon parcours scolaire</a>
+            <a href="#expérience_pro" class="btn" aria-label="dirige à la section des expériences professionnelles">Mes expériences professionnelles</a>
+            <a href="#Langages" class="btn" aria-label="dirige à la section des capacités linguistiques">Langues</a>
+            <a href="#donnée_perso" class="btn" aria-label="dirige à la section des informations personelles">Informations personelles</a>
         </div>
+    </div>
+</nav>
+    <div id="presentation">
 
-
-    </header>
-
-    <main>
-        <div id="info_perso">
-            <h2 id="donnée_perso">Informations personelles <a href="#menu" aria-label="Retour au menu">⬆️</a></h2>
-            <ul>
-                <li>Email : alban.bergeon@gmail.com</li>
-                <li>Téléphone : 06 02 29 82 67</li>
-                <li>Lieu de résidence: La Rivière- Saint-Sauveur</li>
-                <li>Permis: En cours d'obtention</li>
-            </ul>
+        <div id="imagehead">
+            <img aria-label="Photo de Alban Bergeon" src="Alban BERGEON 3.JPG" />
         </div>
+        <div id="textehead">
+            <p>Bonjour !  Je suis Alban Bergeon et bienvenue sur mon CV !</p>
+            <button  class="btn" class="contact" aria-label="boutton qui redirige sur la page linekdin de Alban Bergeon" >Cliquez ici pour me concacter</button>
+        </div>
+    </div>
 
-        <div id="apropos">
-            <h2 id="a_propos_de_moi">à propos de moi <a href="#menu" aria-label="Retour au menu">⬆️</a></h2>
+
+</header>
+
+<main>
+
+    <div class="section">
+        <h2 id="a_propos_de_moi">à propos de moi</h2>
+        <div class="contenu">
             <p>Jeune étudiant à la
                 Normandie Web School,
                 j’apprécie apprendre, je
@@ -68,11 +59,13 @@
                 entreprise.
             </p>
         </div>
+    </div>
 
 
-        <div id="formations">
-            <h2 id="mes_formations">Formations <a href="#menu" aria-label="Retour au menu">⬆️</a></h2>
-
+    <img id="forma" aria-label="photo représentant l'education" src="form.jpg"/>
+    <div class="section">
+        <h2 id="mes_formations">Formations</h2>
+        <div class="contenu">
             <article>
                 <h3>Bachelor chef de projet digitaux</h3>
                 <p class="lieu">Normandie Web School - Le havre</p>
@@ -84,9 +77,12 @@
                 <p class="date">2021-2023</p>
             </article>
         </div>
+    </div>
 
-        <div id="exp_pro">
-            <h2 id="expérience_pro">Expériences professionnelles <a href="#menu" aria-label="Retour au menu">⬆️</a></h2>
+    <img id="exppro"  aria-label="Photo représentant les exprériences pro" src="expro.jpg"/>
+    <div class="section">
+        <h2 id="expérience_pro">Expériences professionnelles</a></h2>
+        <div class="contenu">
             <article>
                 <h3>Recotle de fruits</h3>
                 <p class="lieu">Fruits alleaume - La Rivière-Saint-Sauveur</p>
@@ -106,25 +102,40 @@
                 </ul>
             </article>
         </div>
+    </div>
 
-        <div id="Langues">
-            <h2 id="Langages">Langues <a href="#menu" aria-label="Retour au menu">⬆️</a></h2>
+
+    <img id="monde" aria-label="Photo rerésentant les pays du monde" src="pays.jpg"/>
+    <div class="section">
+        <h2 id="Langages">Langues</h2>
+        <div class="contenu">
             <ul>
                 <li>Français : Langue maternelle</li>
                 <li>Anglais : Niveau B2</li>
                 <li>Espagnol : Notions</li>
             </ul>
         </div>
-    </main>
+    </div>
 
-    <footer>
-        <div id="Lien">
 
-            <h2 id="Contacte">Me contacter <a href="#menu" aria-label="Retour au menu">⬆️</a></h2>
-            <a href="https://www.linkedin.com/in/alban-bergeon-4986b4338/"
-                aria-label="Lien pour se rendre sur le Linkedin d'Alban Begeon">Mon Linkedin</a>
-        </div>
-    </footer>
+
+    
+</main>
+
+<footer>
+    <h2 id="donnée_perso">Informations personelles</a></h2>
+    <div class="contenu">
+        <ul>
+            <li>Email : alban.bergeon@gmail.com</li>
+            <li>Téléphone : 06 02 29 82 67</li>
+            <li>Lieu de résidence: La Rivière- Saint-Sauveur</li>
+            <li>Permis: En cours d'obtention</li>
+        </ul>
+    </div>
+</footer>
+<div id="encrehaut">
+    <a href="#top"><img id="fleche" src="fleche2.PNG" aria-label="dirige en haut de la page"/></a>
+</div>
 </body>
 
 </html>
